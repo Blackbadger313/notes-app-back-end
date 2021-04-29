@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./",
-    "start": "nodemon ./src/server.js"
+    "start": "nodemon ./src/server.js",
+    "start-EC2": "NODE_ENV=production node ./src/server.js"
   },
   "author": "",
   "license": "ISC",
